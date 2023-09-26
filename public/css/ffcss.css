@@ -1,0 +1,63 @@
+.header{
+    text-align: left;
+    background:rgb(222, 184, 135);
+    margin: 0px;
+
+}
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    padding: 0px;
+    margin-top: 0px;
+}
+.flex-item {
+    flex-grow: 1;
+    background:antiquewhite;
+    padding: 20px;
+    line-height: auto;
+    color: black;
+    font-weight: bold;
+    font-size:larger;
+    text-align: center;
+
+}
+.flex-item:hover{
+    background-color: dimgray;
+    color: white;
+    transition: ease-in 100ms;
+    text-decoration: none;
+
+}
+img {
+    width: 150px;
+    height: 150px;
+    }
+    
+body{
+    text-align: center;
+    background-color: rgb(240, 206, 162);
+      margin: 0px;
+    }
+
+ .clothesCollection{
+display: flex;
+flex-direction: row;
+gap: 20px;
+margin: 10px;
+flex-wrap: wrap;
+ }   
+ .clothes{
+    line-height: auto;
+    text-align: center;
+ }
+
+ .buildFit{
+    flex-flow: nowrap column;
+    display: flex;
+    gap: 0;
+    align-items:  center;
+
+ }
+ #s11{
+    display: none;
+ }
